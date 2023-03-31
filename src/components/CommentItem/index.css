@@ -1,0 +1,128 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+
+.commentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+  margin-top: 13px;
+  margin-left: 0px;
+  width: 100%;
+}
+
+.personContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: flex-start;
+}
+
+.firstLetter {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  color: #ffffff;
+}
+
+.nameAndComment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 0px;
+}
+
+.nameAndDate {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 0px;
+}
+
+.personName {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-right: 13px;
+}
+
+.commentDate {
+  color: #475569;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  padding-top: 9px;
+}
+
+.deleteContainer {
+  margin-left: 10px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.likeContainer {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  cursor: pointer;
+}
+
+.like {
+  color: #0284c7;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.likedImage {
+  width: 30px;
+  height: 30px;
+}
+
+.deleteButton {
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  padding: 0px;
+  border: 0px solid transparent;
+  cursor: pointer;
+}
+
+.deleteImage {
+  height: 30px;
+  width: 30px;
+}
